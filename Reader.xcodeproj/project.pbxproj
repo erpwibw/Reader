@@ -14,6 +14,8 @@
 		E2CDAB92260F089800E3B280 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB91260F089800E3B280 /* Row.swift */; };
 		E2CDAB9D260F0CD700E3B280 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB9C260F0CD700E3B280 /* Data.swift */; };
 		E2CDABA2260F1FC500E3B280 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDABA1260F1FC500E3B280 /* Detail.swift */; };
+		E2CDABA6260F667800E3B280 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDABA5260F667800E3B280 /* Setting.swift */; };
+		E2CDABA9260F677700E3B280 /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDABA8260F677700E3B280 /* Vibration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E2CDAB91260F089800E3B280 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
 		E2CDAB9C260F0CD700E3B280 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		E2CDABA1260F1FC500E3B280 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		E2CDABA5260F667800E3B280 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		E2CDABA8260F677700E3B280 /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				E2CDAB7D260EDEE200E3B280 /* ReaderApp.swift */,
 				E2CDAB7F260EDEE200E3B280 /* Master.swift */,
+				E2CDABA8260F677700E3B280 /* Vibration.swift */,
+				E2CDABA5260F667800E3B280 /* Setting.swift */,
 				E2CDABA1260F1FC500E3B280 /* Detail.swift */,
 				E2CDAB9C260F0CD700E3B280 /* Data.swift */,
 				E2CDAB91260F089800E3B280 /* Row.swift */,
@@ -147,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CDABA9260F677700E3B280 /* Vibration.swift in Sources */,
 				E2CDAB80260EDEE200E3B280 /* Master.swift in Sources */,
 				E2CDABA2260F1FC500E3B280 /* Detail.swift in Sources */,
+				E2CDABA6260F667800E3B280 /* Setting.swift in Sources */,
 				E2CDAB92260F089800E3B280 /* Row.swift in Sources */,
 				E2CDAB7E260EDEE200E3B280 /* ReaderApp.swift in Sources */,
 				E2CDAB9D260F0CD700E3B280 /* Data.swift in Sources */,
