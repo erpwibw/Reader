@@ -11,6 +11,8 @@
 		E2CDAB80260EDEE200E3B280 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB7F260EDEE200E3B280 /* ContentView.swift */; };
 		E2CDAB82260EDEE300E3B280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CDAB81260EDEE300E3B280 /* Assets.xcassets */; };
 		E2CDAB85260EDEE300E3B280 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CDAB84260EDEE300E3B280 /* Preview Assets.xcassets */; };
+		E2CDAB92260F089800E3B280 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB91260F089800E3B280 /* Row.swift */; };
+		E2CDAB9D260F0CD700E3B280 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB9C260F0CD700E3B280 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E2CDAB81260EDEE300E3B280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2CDAB84260EDEE300E3B280 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2CDAB86260EDEE300E3B280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2CDAB91260F089800E3B280 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		E2CDAB9C260F0CD700E3B280 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				E2CDAB7D260EDEE200E3B280 /* ReaderApp.swift */,
 				E2CDAB7F260EDEE200E3B280 /* ContentView.swift */,
+				E2CDAB9C260F0CD700E3B280 /* Data.swift */,
+				E2CDAB91260F089800E3B280 /* Row.swift */,
 				E2CDAB81260EDEE300E3B280 /* Assets.xcassets */,
 				E2CDAB86260EDEE300E3B280 /* Info.plist */,
 				E2CDAB83260EDEE300E3B280 /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2CDAB80260EDEE200E3B280 /* ContentView.swift in Sources */,
+				E2CDAB92260F089800E3B280 /* Row.swift in Sources */,
 				E2CDAB7E260EDEE200E3B280 /* ReaderApp.swift in Sources */,
+				E2CDAB9D260F0CD700E3B280 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
