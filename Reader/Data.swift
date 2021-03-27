@@ -7,12 +7,14 @@
 
 import SwiftUI
 
+// Model
 struct Article: Codable, Identifiable {
     var id: Int
     var title: String
     var body: String
 }
 
+// ViewModel
 class Data: ObservableObject {
     @Published var articles = [Article]()
     

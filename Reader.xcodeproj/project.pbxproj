@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E2CDAB7E260EDEE200E3B280 /* ReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB7D260EDEE200E3B280 /* ReaderApp.swift */; };
-		E2CDAB80260EDEE200E3B280 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB7F260EDEE200E3B280 /* ContentView.swift */; };
+		E2CDAB80260EDEE200E3B280 /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB7F260EDEE200E3B280 /* Master.swift */; };
 		E2CDAB82260EDEE300E3B280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CDAB81260EDEE300E3B280 /* Assets.xcassets */; };
 		E2CDAB85260EDEE300E3B280 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CDAB84260EDEE300E3B280 /* Preview Assets.xcassets */; };
 		E2CDAB92260F089800E3B280 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB91260F089800E3B280 /* Row.swift */; };
 		E2CDAB9D260F0CD700E3B280 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB9C260F0CD700E3B280 /* Data.swift */; };
+		E2CDABA2260F1FC500E3B280 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDABA1260F1FC500E3B280 /* Detail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E2CDAB7A260EDEE200E3B280 /* Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CDAB7D260EDEE200E3B280 /* ReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderApp.swift; sourceTree = "<group>"; };
-		E2CDAB7F260EDEE200E3B280 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2CDAB7F260EDEE200E3B280 /* Master.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
 		E2CDAB81260EDEE300E3B280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2CDAB84260EDEE300E3B280 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2CDAB86260EDEE300E3B280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2CDAB91260F089800E3B280 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
 		E2CDAB9C260F0CD700E3B280 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E2CDABA1260F1FC500E3B280 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				E2CDAB7D260EDEE200E3B280 /* ReaderApp.swift */,
-				E2CDAB7F260EDEE200E3B280 /* ContentView.swift */,
+				E2CDAB7F260EDEE200E3B280 /* Master.swift */,
+				E2CDABA1260F1FC500E3B280 /* Detail.swift */,
 				E2CDAB9C260F0CD700E3B280 /* Data.swift */,
 				E2CDAB91260F089800E3B280 /* Row.swift */,
 				E2CDAB81260EDEE300E3B280 /* Assets.xcassets */,
@@ -144,7 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2CDAB80260EDEE200E3B280 /* ContentView.swift in Sources */,
+				E2CDAB80260EDEE200E3B280 /* Master.swift in Sources */,
+				E2CDABA2260F1FC500E3B280 /* Detail.swift in Sources */,
 				E2CDAB92260F089800E3B280 /* Row.swift in Sources */,
 				E2CDAB7E260EDEE200E3B280 /* ReaderApp.swift in Sources */,
 				E2CDAB9D260F0CD700E3B280 /* Data.swift in Sources */,
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Reader/Preview Content\"";
 				DEVELOPMENT_TEAM = G76Z8XVG4L;
@@ -297,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Reader/Preview Content\"";
 				DEVELOPMENT_TEAM = G76Z8XVG4L;
