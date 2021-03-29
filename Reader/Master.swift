@@ -14,7 +14,9 @@ struct Master: View {
     var body: some View {
         NavigationView {
             List(data.articles) { article in
-                NavigationLink(destination: Detail(article: article)) {Row(article: article)}
+                NavigationLink(destination: Detail(article: article)) {
+                    Row(article: article)
+                }
                 
             }
             .navigationTitle("编辑推荐")
